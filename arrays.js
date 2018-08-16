@@ -5,6 +5,6 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginingOfArray(array, element){
-  array = [element, ...array]
+  const array = [element, ...array]
   return array
 }
